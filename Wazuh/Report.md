@@ -22,7 +22,7 @@ This report serves as detailed technical documentation for the build process, ch
   - NAT enabled (VMs share host internet if required)  
 
 **Screenshot:**  
-![VMnet Config](./images/VMnet_Config.png)
+![VMnet Config](./images/VMnetConfig.png)
 
 ### Virtual Machines
 | VM              | OS / Version           | Specs                  | IP Address       |
@@ -33,7 +33,7 @@ This report serves as detailed technical documentation for the build process, ch
 | Kali Linux      | 2025.2 VMware Image    | 2GB RAM, 4 vCPUs, 80GB | 192.168.200.129 |
 
 **Screenshots:**  
-- ![Wazuh VM Specs](./images/WAZUHVM.png)  
+- ![Wazuh VM Specs](./images/WAZUHVMConfig.png)  
 - ![Windows VM Specs](./images/WindowsVMConfig.png)  
 - ![Ubuntu VM Specs](./images/UbuntuServer.png)  
 - ![Kali VM Specs](./images/KaliVMConfig.png)
