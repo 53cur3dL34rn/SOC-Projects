@@ -22,7 +22,7 @@ This report serves as detailed technical documentation for the build process, ch
   - NAT enabled (VMs share host internet if required)  
 
 **Screenshot:**  
-![VMnet Config](./images/VMnetConfig.png)
+![VMnet Config](./images/VMnet_Config.png)
 
 ### Virtual Machines
 | VM              | OS / Version           | Specs                  | IP Address       |
@@ -33,10 +33,10 @@ This report serves as detailed technical documentation for the build process, ch
 | Kali Linux      | 2025.2 VMware Image    | 2GB RAM, 4 vCPUs, 80GB | 192.168.200.129 |
 
 **Screenshots:**  
-- ![Wazuh VM Specs](./images/WAZUH_VM.png)  
-- ![Windows VM Specs](./images/Windows.png)  
+- ![Wazuh VM Specs](./images/WAZUHVM.png)  
+- ![Windows VM Specs](./images/WindowsVMConfig.png)  
 - ![Ubuntu VM Specs](./images/UbuntuServer.png)  
-- ![Kali VM Specs](./images/KaliVM.png)
+- ![Kali VM Specs](./images/KaliVMConfig.png)
 
 ### Connectivity Test
 - Verified all VMs could communicate within the subnet.  
@@ -83,7 +83,7 @@ This report serves as detailed technical documentation for the build process, ch
 - Accessed dashboard at: `https://192.168.200.130:55000`  
 
 **Screenshot:**  
-![Wazuh Dashboard](./images/WAZUH_Dashboard.png)
+![Wazuh Dashboard](./images/WAZUHDashboard.png)
 
 ---
 
@@ -94,8 +94,8 @@ This report serves as detailed technical documentation for the build process, ch
 - Verified registration → Dashboard shows **1 Active Agent**.  
 
 **Screenshots:**  
-- ![Wazuh Agent Config](./images/WAZUH_Agent.png)  
-- ![Dashboard Active Agent](./images/WAZUH_Dashboard.png)
+- ![Wazuh Agent Config](./images/WAZUHAgent.png)  
+- ![Dashboard Active Agent](./images/WAZUHDashboard.png)
 
 ---
 
